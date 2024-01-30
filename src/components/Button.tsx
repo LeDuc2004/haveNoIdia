@@ -5,7 +5,6 @@ import Image from "next/image"
 
 export default function BaseButton() {
   const { data: session } : any = useSession()
-  console.log(session)
   if (session) {
     return (
       <div className="mx-4">

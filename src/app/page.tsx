@@ -1,3 +1,4 @@
+"use client"
 import BaseButton from '@/components/Button'
 import React from 'react'
 
