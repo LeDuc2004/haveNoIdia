@@ -5,8 +5,8 @@ import CredentialsProvider from 'next-auth/providers/credentials'
 export const options: NextAuthOptions = {
     providers: [
         GitHubProvider({
-            clientId: process.env.GITHUB_ID || "",
-            clientSecret: process.env.GITHUB_SECRET || "",
+            clientId: process.env.GITHUB_ID || "24b396affdb5213be6ce",
+            clientSecret: process.env.GITHUB_SECRET || "3462434af3255ed5b3f127611414ceb95df62090",
         }),
         CredentialsProvider({
             name: "Credentials",
